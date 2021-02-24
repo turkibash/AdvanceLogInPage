@@ -1,4 +1,6 @@
 body{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background: linear-gradient(to top right, #66ccff 0%, #ff9900 100%);
     height: 100%;
     justify-items: center;
     align-items: center;
@@ -35,3 +37,31 @@ body{
     height: 50%;
     width: 50%;
 }
+
+.memes-container{
+    box-sizing: border-box;
+    font: size 2rem;
+    padding: 30px;
+    display: block;
+    margin: 5px;
+    
+    
+}
+.memes-title{
+    font-size: 1.5rem;
+    display: block;
+    inset-block-end: 1px;
+}
+
+.memes-images{
+    align-content: center;
+    background-size: contain;
+    margin-bottom: 10rem;
+    width: 400px;
+    height: auto;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
+}
+
+
