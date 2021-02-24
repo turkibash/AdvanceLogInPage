@@ -5,8 +5,8 @@ loginBtn.addEventListener('click',(e) => {
     e.preventDefault();
     const username = loginForm.username.value;
     const password = loginForm.password.value;
-    const redirectUrl = (redirect) => {
-       return window.location.href = 'Movies.html';
+    const redirectUrl = () => {
+       return window.location.href = 'Memes.html';
     }
 
 
