@@ -1,5 +1,5 @@
 const loginForm = document.getElementById('login-form');
-const loginBtn = document.getElementById('login-btn');
+const loginBtn = document.getElementById('login-button');
 
 loginBtn.addEventListener('click',(e) => {
     e.preventDefault();
@@ -10,7 +10,7 @@ loginBtn.addEventListener('click',(e) => {
     }
 
 
-    if (username === 'Turkibash' && password === '12345678'){
+    if (username === 'Turkibash' && password === '1234'){
     alert('Login Success');
         redirectUrl();
     } else {

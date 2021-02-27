@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+    background: rgba(51, 51, 51, 0.199);
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 1em 0;
+}
+
+h1{
+    margin: 0;
+    padding: 1em 0;
+}
+
+
+.memes-container{
+    box-sizing: border-box;
+    font: size 2rem;
+    padding: 30px;
+    display: block;
+    margin: 5px;
+    
+    
+}
+.memes-title{
+    font-size: 1.5rem;
+    display: block;
+    inset-block-end: 1px;
+}
+
+/* .memes-images{
+    align-content: center;
+    background-size: contain;
+    margin-bottom: 10rem;
+    width: 400px;
+    height: auto;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    
+} */
+ 
