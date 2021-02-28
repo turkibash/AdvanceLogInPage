@@ -10,13 +10,15 @@ loginBtn.addEventListener('click',(e) => {
     }
 
 
-    if (username === 'Turkibash' && password === '1234'){
-    alert('Login Success');
+    if (username === '' || password === ''){
+        alert('username & password must be filled');
+
+    } else if (username === "Turki" && password === "1234"){
+    
+        alert('Login Success');
         redirectUrl();
     } else {
         alert('Wrong username or password');
     }
-
-
+    
 })
-
